@@ -43,8 +43,8 @@ Thumbs.db
 
 # Typical folders
 **/bin/
-**/lib/
 **/dat/
+**/lib/libtorch
 **/build/
 
 # CLion generated files
