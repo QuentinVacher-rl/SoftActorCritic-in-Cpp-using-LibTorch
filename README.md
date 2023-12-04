@@ -4,7 +4,7 @@ I needed an implementation of Soft Actor-Critic in C++ for my work but couldn't 
 The code is provided with a simple GridWorld environment and a main file to test the algorithm. 
 I didn't have time to create a wrapper for Gym to test it.
 
-JsonCpp and Libtorch are needed.
+JsonCpp and Libtorch are needed, JsonCpp is already in the lib folder.
 
 This code is based on the python implementation of philtabor, which you can find here: [GitHub](https://github.com/philtabor/Youtube-Code-Repository/tree/eb3aa9733158a4f7c4ba1fefaa812b27ffd889b6/ReinforcementLearning/PolicyGradient/SAC)
 
