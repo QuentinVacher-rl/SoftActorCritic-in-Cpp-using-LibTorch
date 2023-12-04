@@ -1,0 +1,20 @@
+{
+	// Learning rate of the models
+	"lr": 0.003,
+	/// Gamma for bellman equation
+	"gamma": 0.99,
+	// Reward scale 
+	"rewardScale": 2,
+	// Size of the buffer
+	"sizeBuffer": 100000,
+	// Batch size of training iterations
+	"batchSize": 256,
+	// Coefficient to update the targetValue model
+	"tau": 0.005,
+	// Size of the first layer of the models
+	"sizeHL1": 256,
+	// Size of the second layer of the models
+	"sizeHL2" : 256,
+	// True to load the models
+	"loadModels": false
+}
